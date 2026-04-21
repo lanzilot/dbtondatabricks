@@ -1,4 +1,5 @@
 Project Overview
+
 This project demonstrates a production‑ready ELT pipeline using dbt (data build tool) and Databricks.
 It ingests raw CSV files (patient.csv, charges.csv), transforms them into clean staging models, and aggregates patient‑level charges. The pipeline includes data quality tests and is scheduled via Databricks Jobs.
 
