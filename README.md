@@ -26,4 +26,12 @@ The dbt project is synced to a Databricks Repo (GitHub integration).
 A Databricks Job with a dbt task runs dbt run daily on a SQL Warehouse.
 Separate environment (dev vs prod) using different schemas.
 
+## How to Run This Project 
+Clone the repo.
+Install dbt: pip install dbt-databricks
+Configure ~/.dbt/profiles.yml with your Databricks credentials.
+Run dbt debug to test connection.
+Run dbt run to build models.
+
+Run dbt test to validate data
 
