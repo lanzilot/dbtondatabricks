@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_patient
+    columns:
+      - name: pin
+        tests:
+          - unique
+          - not_null
+  - name: stg_charges
+    columns:
+      - name: pin
+        tests:
+          - unique
+          - not_null

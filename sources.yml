@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: dbt_learn
+    tables:
+      - name: raw_patient
+      - name: raw_charges
