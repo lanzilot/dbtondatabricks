@@ -21,8 +21,7 @@ Both files are uploaded to Databricks Unity Catalog under main.dbt_learn.
 dbt run          # builds all models
 dbt test         # runs data tests
 
-##Production scheduling on Databricks
-
+## Production scheduling on Databricks
 The dbt project is synced to a Databricks Repo (GitHub integration).
 A Databricks Job with a dbt task runs dbt run daily on a SQL Warehouse.
 Separate environment (dev vs prod) using different schemas.
