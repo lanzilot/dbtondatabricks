@@ -16,7 +16,6 @@ patient.csv	Patient demographics	id (unique), pin, firstname, lastname, sex
 charges.csv	Medical charges per patient	pin (charge line), chno (charge number, can repeat), amount, service_date
 Both files are uploaded to Databricks Unity Catalog under main.dbt_learn.
 
-
 ## Execution and Orchestration
 dbt run          # builds all models
 dbt test         # runs data tests
