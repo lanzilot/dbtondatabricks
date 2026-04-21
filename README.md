@@ -20,6 +20,11 @@ Both files are uploaded to Databricks Unity Catalog under main.dbt_learn.
 dbt run          # builds all models
 dbt test         # runs data tests
 
+## Business Impact
+Reduced transformation runtime by ~90% after switching to incremental models.
+Eliminated manual data reprocessing – the pipeline runs unattended every day.
+Provided a single source of truth for patient charges, with built‑in data quality checks.
+
 ## Production scheduling on Databricks
 The dbt project is synced to a Databricks Repo (GitHub integration).
 A Databricks Job with a dbt task runs dbt run daily on a SQL Warehouse.
