@@ -34,3 +34,6 @@ Configure ~/.dbt/profiles.yml with your Databricks credentials.
 2.  Run dbt run to build models.
 3.  Run dbt test to validate data
 
+## 🚀 Deployment
+This dbt project is deployed as a **Databricks Job** with a dbt task. It runs daily on a Databricks SQL Warehouse, executing `dbt run && dbt test`. The job can be monitored and scheduled directly from the Databricks Workflows UI.
+
