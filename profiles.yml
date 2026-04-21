@@ -1,0 +1,11 @@
+databricks_demo:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      host: dbc-600d38eb-1acb.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/your-warehouse-id
+      token: dapi...
+      schema: dbt_learn
+      catalog: main
+      threads: 4
