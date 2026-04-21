@@ -22,6 +22,7 @@ Execution and Orchestration
 dbt run          # builds all models
 dbt test         # runs data tests
 
+
 Production scheduling on Databricks
 
 The dbt project is synced to a Databricks Repo (GitHub integration).
