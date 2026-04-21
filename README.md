@@ -30,8 +30,7 @@ Separate environment (dev vs prod) using different schemas.
 Clone the repo.
 Install dbt: pip install dbt-databricks
 Configure ~/.dbt/profiles.yml with your Databricks credentials.
-Run dbt debug to test connection.
-Run dbt run to build models.
-
-Run dbt test to validate data
+1.  Run dbt debug to test connection.
+2.  Run dbt run to build models.
+3.  Run dbt test to validate data
 
