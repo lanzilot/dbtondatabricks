@@ -1,0 +1,18 @@
+name: 'databricks_demo'
+profile: 'databricks_demo'
+config-version: 2
+version: '1.0.0'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  databricks_demo:
+    +materialized: view
